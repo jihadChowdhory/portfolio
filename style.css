@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Krona One", sans-serif;
+}
+.container {
+  width: 85%;
+  margin: auto;
+}
+h1 {
+  font-size: 45px;
+  color: white;
+}
+
+.primary-color {
+  color: #00bfa6;
+}
+.primary-btn {
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #00bfa6;
+  color: white;
+  border: 3px solid #00bfa6;
+}
+.primary-btn:hover {
+  background-color: #141628;
+  cursor: pointer;
+}
+/* Navigation bar */
+nav {
+  background-color: #141628;
+}
+nav div {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.nav-items {
+  display: flex;
+}
+.nav-items li {
+  list-style-type: none;
+}
+.nav-items li a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.nav-items li:nth-child(-n + 3) {
+  margin-right: 30px;
+}
+.name-logo {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+/* Navigation bar */
+/* Header Section */
+.half-width {
+  width: 50%;
+  margin-top: 10%;
+}
+.header {
+  height: 597px;
+  background-color: #141628;
+}
+.header > div {
+  display: flex;
+  align-items: center;
+}
+.header-img {
+  margin-left: 50px;
+}
+.header-img img {
+  width: 100%;
+}
+/* Header Section */
