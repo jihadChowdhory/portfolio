@@ -146,3 +146,11 @@ nav div {
   align-items: center;
 }
 /* About Section */
+/* Footer Section */
+footer {
+  background-color: #141628;
+  padding-top: 50px;
+  color: white;
+  text-align: center;
+}
+/* Footer Section */
