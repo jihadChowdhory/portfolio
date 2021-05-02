@@ -7,7 +7,7 @@
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
     <!-- Google Font -->
@@ -22,10 +22,21 @@
       <div class="container">
         <span class="name-logo">Jihad Chowdhory</span>
         <ul class="nav-items">
-          <li><a href="#" class="nav-link">Work</a></li>
-          <li><a href="#" class="nav-link">About</a></li>
-          <li><a href="#" class="nav-link">Download Resume</a></li>
-          <li><a href="#" class="nav-link">Contact</a></li>
+          <li><a href="#work" class="nav-link">Work</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1IRE_O7h5eze1AbItEcQpN7ozu4b4CtxV/view"
+              class="nav-link"
+              target="_blank"
+              >Download Resume</a
+            >
+          </li>
+          <li>
+            <a href="mailto:mohammadjihad0333@gmail.com" class="nav-link"
+              >Contact</a
+            >
+          </li>
         </ul>
       </div>
     </nav>
@@ -38,7 +49,11 @@
           <h1>
             a <span class="primary-color">self-taught</span> web developer
           </h1>
-          <button class="primary-btn">Download Resume</button>
+          <a
+            class="primary-btn"
+            href="https://drive.google.com/file/d/1IRE_O7h5eze1AbItEcQpN7ozu4b4CtxV/view"
+            >Download Resume</a
+          >
         </div>
         <div class="header-img half-width">
           <img src="./imgs/header-img.svg" alt="" />
@@ -46,5 +61,136 @@
       </div>
     </section>
     <!-- Header Section -->
+    <!-- Work Section -->
+    <section class="work" id="work">
+      <h2>Hand-picked <span class="primary-color">projects</span></h2>
+      <h2 style="padding-top: 10px">for you to see.</h2>
+      <div class="btn-group">
+        <button
+          style="text-align: center"
+          id="btn-previous"
+          onclick="handlePreviousCount()"
+        >
+          ->
+        </button>
+        <p style="text-align: center; color: white; display: inline-block">
+          0<span id="count">1</span>/03
+        </p>
+        <button
+          style="text-align: center"
+          id="btn-next"
+          onclick="handleNextCount()"
+        >
+          ->
+        </button>
+      </div>
+      <div class="projects container">
+        <div class="single-project" id="project-1">
+          <div class="project-details half-width">
+            <h2>Project Title 1</h2>
+            <h3>Project subtitle 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Laboriosam animi laudantium enim nisi iste! Est alias unde
+              voluptatem nihil corporis fugiat aperiam placeat veritatis cumque
+              tempore omnis recusandae corrupti quisquam perferendis tenetur
+              architecto, ipsam, consequuntur asperiores iste labore error
+              delectus. Iure aliquam corrupti laborum nam et molestiae
+              voluptatem ex sequi.
+            </p>
+            <button class="primary-btn">Visit Site</button>
+          </div>
+          <div class="project-img half-width">
+            <img src="./imgs/jc-transport.png" alt="" />
+          </div>
+        </div>
+        <div class="single-project" id="project-2" style="display: none">
+          <div class="project-details half-width">
+            <h2>Project Title 2</h2>
+            <h3>Project subtitle 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Laboriosam animi laudantium enim nisi iste! Est alias unde
+              voluptatem nihil corporis fugiat aperiam placeat veritatis cumque
+              tempore omnis recusandae corrupti quisquam perferendis tenetur
+              architecto, ipsam, consequuntur asperiores iste labore error
+              delectus. Iure aliquam corrupti laborum nam et molestiae
+              voluptatem ex sequi.
+            </p>
+            <button class="primary-btn">Visit Site</button>
+          </div>
+          <div class="project-img half-width">
+            <img src="./imgs/jc-transport.png" alt="" />
+          </div>
+        </div>
+        <div class="single-project" id="project-3" style="display: none">
+          <div class="project-details half-width">
+            <h2>Project Title 3</h2>
+            <h3>Project subtitle 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Laboriosam animi laudantium enim nisi iste! Est alias unde
+              voluptatem nihil corporis fugiat aperiam placeat veritatis cumque
+              tempore omnis recusandae corrupti quisquam perferendis tenetur
+              architecto, ipsam, consequuntur asperiores iste labore error
+              delectus. Iure aliquam corrupti laborum nam et molestiae
+              voluptatem ex sequi.
+            </p>
+            <button class="primary-btn">Visit Site</button>
+          </div>
+          <div class="project-img half-width">
+            <img src="./imgs/jc-transport.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Work Section -->
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-skill container">
+        <div class="half-width">
+          <h3 class="primary-color">Who am I</h3>
+          <p>
+            I'm Jihad Chowdhory, 15 years old and from Brahmanbaria, Bangladesh.
+          </p>
+          <p>
+            I love to develop beautiful website to make attract everyone and
+            solve a problem.
+          </p>
+          <p>
+            All the skills and tools I use, are self-taught over many years of
+            practice and expanding my horizons.
+          </p>
+          <a href="mailto:mohammadjihad0333@gmail.com" class="primary-btn"
+            >Contact Me</a
+          >
+        </div>
+        <div class="half-width">
+          <h3 class="primary-color">Skils</h3>
+          <p>
+            Front-end: HTML5, CSS3, Bootstrap, Javascript, ES6, React JS, React
+            Router, SASS.
+          </p>
+          <p>
+            Back-end: Node JS, REST API, JSON, MongoDB(CRUD), Express JS,
+            Firebase Authentication.
+          </p>
+          <p>
+            Familiar: Material UI, React Bootstrap, Redux, React Native,
+            Typescript, Tailwind CSS, Chrome Extension, Python, Payment
+            Integration.
+          </p>
+          <p>
+            Tools: Git, Github, Firebase, Heroku, Netlify, VS Code, Sublime
+            Text, NPM, Chrome Dev Tool, Pycharm, React Dev Tool, Postman.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <!-- Script JS -->
+    <script src="./app.js"></script>
+    <!-- Script JS -->
   </body>
 </html>

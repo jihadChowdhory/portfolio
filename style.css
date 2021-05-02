@@ -3,7 +3,7 @@
   padding: 0px;
 }
 body {
-  font-family: "Krona One", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .container {
   width: 85%;
@@ -26,6 +26,7 @@ h1 {
   background-color: #00bfa6;
   color: white;
   border: 3px solid #00bfa6;
+  text-decoration: none;
 }
 .primary-btn:hover {
   background-color: #141628;
@@ -82,3 +83,66 @@ nav div {
   width: 100%;
 }
 /* Header Section */
+/* Work Section */
+.work {
+  background-color: #1b1e32;
+  padding-bottom: 90px;
+}
+.single-project {
+  display: flex;
+  align-items: center;
+  transition: all 5s;
+}
+.project-img img {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 30px #1a1a1a;
+}
+.btn-group {
+  text-align: center;
+  margin-top: 50px;
+}
+.btn-group button {
+  border: none;
+  background-color: #00bfa6;
+  padding: 10px;
+  color: white;
+}
+.btn-group button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.work h2 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  padding-top: 50px;
+}
+.project-details {
+  color: white;
+}
+.project-details h2 {
+  text-align: left;
+  padding: 0px;
+  margin: 20px 0px 20px 0px;
+}
+.project-details h3 {
+  margin: 20px 0px 20px 0px;
+}
+/* Work Section */
+/* About Section */
+#about {
+  background-color: #141628;
+  color: white;
+  padding-bottom: 90px;
+  line-height: 35px;
+}
+#about h2 {
+  text-align: center;
+  padding-top: 50px;
+}
+.about-skill {
+  display: flex;
+  align-items: center;
+}
+/* About Section */
