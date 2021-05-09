@@ -20,8 +20,11 @@
     />
     <!-- Font Awesome -->
     <!-- CSS Stylesheet -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <!-- CSS Stylesheet -->
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <!-- Responsive CSS -->
     <title>Jihad Chowdhory - Self taught Web Developer</title>
   </head>
   <body>
@@ -46,6 +49,11 @@
             >
           </li>
         </ul>
+        <i
+          class="fas fa-bars dropdown"
+          id="dropdown"
+          onclick="dropDownMenu()"
+        ></i>
       </div>
     </nav>
     <!-- Navigation Bar -->
@@ -53,8 +61,8 @@
     <section class="header">
       <div class="container">
         <div class="header-text half-width">
-          <h1>Hello, I am <span class="primary-color">Jihad</span></h1>
           <h1>
+            Hello, I am <span class="primary-color">Jihad</span> <br />
             a <span class="primary-color">self-taught</span> web developer
           </h1>
           <a
@@ -95,37 +103,62 @@
       <div class="projects container">
         <div class="single-project" id="project-1">
           <div class="project-details half-width">
-            <h2>Project Title 1</h2>
-            <h3>Project subtitle 1</h3>
+            <h2>MY TUTOR</h2>
+            <h3>Is a online course provider</h3>
+            <p><b>Features:-</b></p>
+            <p>1 - Users can create their account here by login here.</p>
+            <p>2 - Users can purchase courses from here.</p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Laboriosam animi laudantium enim nisi iste! Est alias unde
-              voluptatem nihil corporis fugiat aperiam placeat veritatis cumque
-              tempore omnis recusandae corrupti quisquam perferendis tenetur
-              architecto, ipsam, consequuntur asperiores iste labore error
-              delectus. Iure aliquam corrupti laborum nam et molestiae
-              voluptatem ex sequi.
+              3 - Users have a dashboard where they can see information about
+              enrolled courses and can give review to our website.
             </p>
-            <button class="primary-btn">Visit Site</button>
+            <p>
+              4 - Admin can add a course, delete a course and can make someone
+              admin.
+            </p>
+            <p>
+              5 - Admin can see all orders and can change the status of orders.
+            </p>
+            <br />
+            <p>
+              <b
+                >Technology Used: HTML, CSS, Bootstrap, JavaScript, ReactJS,
+                React Router, Firebase, MongoDB, NodeJS, ExpressJS, REST API,
+                Stripe, Heroku.</b
+              >
+            </p>
+            <a
+              class="primary-btn"
+              href="https://my-tutor-jc.web.app/"
+              target="_blank"
+              >Visit Site</a
+            >
           </div>
           <div class="project-img half-width">
-            <img src="./imgs/jc-transport.png" alt="" />
+            <img src="./imgs/my-tutor.png" alt="" />
           </div>
         </div>
         <div class="single-project" id="project-2" style="display: none">
           <div class="project-details half-width">
-            <h2>Project Title 2</h2>
-            <h3>Project subtitle 2</h3>
+            <h2>JC TRANSPORT</h2>
+            <h3>Is a ride sharing application</h3>
+            <p><b>Features:-</b></p>
+            <p>1 - User can create account by login.</p>
+            <p>2 - User can book ride from 4 types of vehicles easily.</p>
+            <p>3 - User can search for the nearest available vehicles.</p>
+            <br />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Laboriosam animi laudantium enim nisi iste! Est alias unde
-              voluptatem nihil corporis fugiat aperiam placeat veritatis cumque
-              tempore omnis recusandae corrupti quisquam perferendis tenetur
-              architecto, ipsam, consequuntur asperiores iste labore error
-              delectus. Iure aliquam corrupti laborum nam et molestiae
-              voluptatem ex sequi.
+              <b
+                >Technology Used: HTML, CSS, JavaScript, ReactJS, React Router,
+                Firebase, Font Awesome Icon, Google Fonts.</b
+              >
             </p>
-            <button class="primary-btn">Visit Site</button>
+            <a
+              class="primary-btn"
+              href="https://jc-transport.web.app/"
+              target="_blank"
+              >Visit Site</a
+            >
           </div>
           <div class="project-img half-width">
             <img src="./imgs/jc-transport.png" alt="" />
@@ -133,21 +166,26 @@
         </div>
         <div class="single-project" id="project-3" style="display: none">
           <div class="project-details half-width">
-            <h2>Project Title 3</h2>
-            <h3>Project subtitle 3</h3>
+            <h2>LEAGUE INFO</h2>
+            <h3>Is a league information gathering website</h3>
+            <p><b>Features:-</b></p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Laboriosam animi laudantium enim nisi iste! Est alias unde
-              voluptatem nihil corporis fugiat aperiam placeat veritatis cumque
-              tempore omnis recusandae corrupti quisquam perferendis tenetur
-              architecto, ipsam, consequuntur asperiores iste labore error
-              delectus. Iure aliquam corrupti laborum nam et molestiae
-              voluptatem ex sequi.
+              1 - It is a simple website where user can search for league
+              information in details.
             </p>
-            <button class="primary-btn">Visit Site</button>
+            <br />
+            <p>
+              <b>Technology Used: HTML, CSS, JavaScript, ReactJS, React </b>
+            </p>
+            <a
+              class="primary-btn"
+              href="https://p3assignment8.netlify.app/"
+              target="_blank"
+              >Visit Site</a
+            >
           </div>
           <div class="project-img half-width">
-            <img src="./imgs/jc-transport.png" alt="" />
+            <img src="./imgs/league-info.png" alt="" />
           </div>
         </div>
       </div>

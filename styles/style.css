@@ -35,6 +35,10 @@ h1 {
 /* Navigation bar */
 nav {
   background-color: #141628;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
 }
 nav div {
   display: flex;
@@ -61,6 +65,11 @@ nav div {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 5px;
+}
+.dropdown {
+  color: white;
+  display: none;
+  font-size: 20px;
 }
 /* Navigation bar */
 /* Header Section */
@@ -91,7 +100,15 @@ nav div {
 .single-project {
   display: flex;
   align-items: center;
-  transition: all 5s;
+  animation: slide 0.3s ease-in-out;
+}
+@keyframes slide {
+  0% {
+    transform: scale(0, 0);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
 }
 .project-img img {
   width: 100%;

@@ -1,0 +1,13 @@
+/* Responsive designs for Medium Devices */
+@media (max-width: 768px) {
+}
+
+/* Responsive designs for Small Devices */
+@media (max-width: 480px) {
+  .nav-items {
+    display: none;
+  }
+  .dropdown {
+    display: block;
+  }
+}

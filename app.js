@@ -28,3 +28,12 @@ const changeProject = (count) => {
     document.getElementById("project-3").style.display = "none";
   }
 };
+let isDisplaying = false;
+const dropDownMenu = () => {
+  isDisplaying = !isDisplaying;
+  if (isDisplaying) {
+    console.log("Displaying the menus");
+  } else {
+    console.log("Hiding the menus");
+  }
+};
