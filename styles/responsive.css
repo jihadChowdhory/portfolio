@@ -6,8 +6,18 @@
 @media (max-width: 480px) {
   .nav-items {
     display: none;
+    border: 1px solid red;
   }
-  .dropdown {
+  .dropdown-hamburger {
     display: block;
+  }
+  .side-nav {
+    flex-direction: column;
+    padding: 0px;
+  }
+  .side-nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 0px 10px 0px;
   }
 }

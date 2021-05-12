@@ -1,3 +1,4 @@
+// Slide changing functionality
 const handleNextCount = () => {
   let count = document.getElementById("count");
   if (parseFloat(count.innerText) < 3) {
@@ -28,12 +29,18 @@ const changeProject = (count) => {
     document.getElementById("project-3").style.display = "none";
   }
 };
+
+// Responsive navigation bar functionality
 let isDisplaying = false;
 const dropDownMenu = () => {
   isDisplaying = !isDisplaying;
   if (isDisplaying) {
-    console.log("Displaying the menus");
+    document.getElementById("hamburger").style.display = "none";
+    document.getElementById("cross").style.display = "block";
+    document.getElementById("side-nav").style.display = "flex";
   } else {
-    console.log("Hiding the menus");
+    document.getElementById("hamburger").style.display = "block";
+    document.getElementById("cross").style.display = "none";
+    document.getElementById("side-nav").style.display = "none";
   }
 };

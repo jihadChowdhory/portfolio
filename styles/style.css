@@ -66,10 +66,18 @@ nav div {
   text-transform: uppercase;
   letter-spacing: 5px;
 }
-.dropdown {
+.dropdown-hamburger {
   color: white;
   display: none;
   font-size: 20px;
+}
+.dropdown-cross {
+  color: white;
+  display: none;
+  font-size: 20px;
+}
+.side-nav {
+  display: none;
 }
 /* Navigation bar */
 /* Header Section */
