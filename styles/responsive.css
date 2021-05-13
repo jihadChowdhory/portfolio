@@ -3,7 +3,7 @@
 }
 
 /* Responsive designs for Small Devices */
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   /* Responsive navigation bar */
   .nav-items {
     display: none;
