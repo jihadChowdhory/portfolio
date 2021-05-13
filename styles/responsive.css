@@ -23,11 +23,18 @@
   .header > div {
     display: flex;
     flex-direction: column-reverse;
+    text-align: center;
   }
   .header-img {
     margin-left: 0px;
   }
   .half-width {
     width: 100%;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  .header .primary-btn {
+    font-size: 13px;
   }
 }
