@@ -43,4 +43,8 @@
   .single-project {
     flex-direction: column-reverse;
   }
+  /* Responsive about me */
+  .about-skill {
+    flex-direction: column-reverse;
+  }
 }
