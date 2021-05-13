@@ -44,3 +44,21 @@ const dropDownMenu = () => {
     document.getElementById("side-nav").style.display = "none";
   }
 };
+
+// Active navigation styling
+const active = (e) => {
+  const target = document.getElementById(e);
+  target.classList.add("active");
+  const link1 = document.getElementById("work-link");
+  const link2 = document.getElementById("about-link");
+  const link3 = document.getElementById("download-resume-link");
+  const link4 = document.getElementById("contact-link");
+  const links = [link1, link2, link3, link4];
+  for (let i = 0; i < links.length; i++) {
+    const link = links[i].id;
+    if (link != target.id) {
+      const removingTarget = document.getElementById(link);
+      removingTarget.classList.remove("active");
+    }
+  }
+};

@@ -5,6 +5,9 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 .container {
   width: 85%;
   margin: auto;
@@ -60,11 +63,14 @@ nav div {
   margin-right: 30px;
 }
 .name-logo {
-  color: white;
   font-size: 15px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 5px;
+}
+.name-logo a {
+  text-decoration: none;
+  color: white;
 }
 .dropdown-hamburger {
   color: white;
@@ -78,6 +84,9 @@ nav div {
 }
 .side-nav {
   display: none;
+}
+.active {
+  border-bottom: 2px solid #00bfa6;
 }
 /* Navigation bar */
 /* Header Section */
