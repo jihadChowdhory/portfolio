@@ -20,4 +20,14 @@
     color: white;
     padding: 10px 0px 10px 0px;
   }
+  .header > div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .header-img {
+    margin-left: 0px;
+  }
+  .half-width {
+    width: 100%;
+  }
 }
