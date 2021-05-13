@@ -4,6 +4,7 @@
 
 /* Responsive designs for Small Devices */
 @media (max-width: 480px) {
+  /* Responsive navigation bar */
   .nav-items {
     display: none;
     border: 1px solid red;
@@ -20,6 +21,7 @@
     color: white;
     padding: 10px 0px 10px 0px;
   }
+  /* Responsive header */
   .header > div {
     display: flex;
     flex-direction: column-reverse;
@@ -36,5 +38,9 @@
   }
   .header .primary-btn {
     font-size: 13px;
+  }
+  /* Responsive work */
+  .single-project {
+    flex-direction: column-reverse;
   }
 }
