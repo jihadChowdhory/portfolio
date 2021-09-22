@@ -186,6 +186,10 @@ nav div {
   color: white;
   padding: 50px 0px 50px 0px;
 }
+#contact h2 {
+  text-align: center;
+  padding-bottom: 50px;
+}
 .formDiv label,
 input,
 textarea {
@@ -193,7 +197,8 @@ textarea {
   width: 100%;
   box-sizing: border-box;
   padding: 10px;
-  border: nones;
+  border: none;
+  border-radius: 5px;
 }
 .formDiv {
   width: 60%;
@@ -203,6 +208,7 @@ textarea {
   display: block;
   width: 100%;
   border: none;
+  border-radius: 5px;
   box-sizing: border-box;
   background-color: #00bfa6;
   margin-top: 20px;
@@ -237,7 +243,7 @@ textarea {
 /* Footer Section */
 footer {
   background-color: #141628;
-  padding-top: 50px;
+  padding: 20px;
   color: white;
   text-align: center;
 }

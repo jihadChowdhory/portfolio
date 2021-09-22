@@ -65,11 +65,11 @@ const active = (e) => {
 
 // Email sending Functionality
 const send = () => {
-  const name = document.getElementById("user_name").value;
-  const number = document.getElementById("contact_number").value;
-  const email = document.getElementById("user_email").value;
-  const msg = document.getElementById("message").value;
-  var templateParams = {
+  let name = document.getElementById("user_name").value;
+  let number = document.getElementById("contact_number").value;
+  let email = document.getElementById("user_email").value;
+  let msg = document.getElementById("message").value;
+  const templateParams = {
     user_name: name,
     contact_number: number,
     user_email: email,
@@ -81,6 +81,10 @@ const send = () => {
       console.log("SUCCESS!", response.status, response.text);
       document.getElementById("success").style.display = "block";
       document.getElementById("failed").style.display = "none";
+      document.getElementById("user_name").value = " ";
+      document.getElementById("contact_number").value = " ";
+      document.getElementById("user_email").value = " ";
+      document.getElementById("message").value = " ";
     },
     function (error) {
       console.log("FAILED", error);
