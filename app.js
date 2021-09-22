@@ -62,3 +62,34 @@ const active = (e) => {
     }
   }
 };
+
+// Email sending Functionality
+const send = () => {
+  const name = document.getElementById("user_name").value;
+  const number = document.getElementById("contact_number").value;
+  const email = document.getElementById("user_email").value;
+  const msg = document.getElementById("message").value;
+  var templateParams = {
+    user_name: name,
+    contact_number: number,
+    user_email: email,
+    message: msg,
+  };
+
+  emailjs.send("service_wpl11w5", "contact_form", templateParams).then(
+    function (response) {
+      console.log("SUCCESS!", response.status, response.text);
+      document.getElementById("success").style.display = "block";
+      document.getElementById("failed").style.display = "none";
+    },
+    function (error) {
+      console.log("FAILED", error);
+      document.getElementById("failed").style.display = "block";
+      document.getElementById("success").style.display = "none";
+    }
+  );
+};
+
+const handleHide = (e) => {
+  document.getElementById(e).style.display = "none";
+};
