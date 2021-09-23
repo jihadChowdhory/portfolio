@@ -232,11 +232,11 @@ textarea {
   cursor: pointer;
 }
 #success {
-  /* display: none; */
+  display: none;
   border: 1px solid #00bfa6;
 }
 #failed {
-  /* display: none; */
+  display: none;
   border: 1px solid #ff2e2e;
 }
 /* Contact Me Section */
