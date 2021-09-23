@@ -48,7 +48,10 @@
     width: 100%;
   }
   .confirmation {
-    width: 50%;
+    width: 90%;
+  }
+  .confirmation span {
+    margin-left: 48%;
   }
   /* Responsive about me */
   .about-skill {
