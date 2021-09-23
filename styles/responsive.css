@@ -43,6 +43,13 @@
   .single-project {
     flex-direction: column-reverse;
   }
+  /* Responsive contact me */
+  .formDiv {
+    width: 100%;
+  }
+  .confirmation {
+    width: 47%;
+  }
   /* Responsive about me */
   .about-skill {
     flex-direction: column-reverse;

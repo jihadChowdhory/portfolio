@@ -34,6 +34,7 @@ h1 {
 .primary-btn:hover {
   background-color: #141628;
   cursor: pointer;
+  transition: 0.3s;
 }
 /* Navigation bar */
 nav {
@@ -177,7 +178,7 @@ nav div {
 }
 .about-skill {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 /* About Section */
 /* Contact Me Section */
@@ -220,10 +221,9 @@ textarea {
   padding: 10px;
   border-radius: 5px;
   position: sticky;
-  top: 100px;
+  top: 65px;
   left: 74%;
   background-color: #141628;
-  transition: 1s;
 }
 .confirmation span {
   padding: 10px;
